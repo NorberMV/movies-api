@@ -24,5 +24,4 @@ def fetch_columns():
             if line_counter == 0:
                 data["column_names"] = ", ".join(row)
                 line_counter += 1
-    #return {"Hello": "Norber!"}
     return data
